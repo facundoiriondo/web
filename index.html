@@ -1,0 +1,273 @@
+<!DOCTYPE html><html class="dark" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Facundo Iriondo </title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Inter:wght@300;400;500;600&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#adc6ff",
+              "on-primary": "#002e6a",
+              "primary-container": "#4d8eff",
+              "on-primary-container": "#00285d",
+              "secondary": "#b9c8de",
+              "on-secondary": "#233143",
+              "secondary-container": "#39485a",
+              "on-secondary-container": "#a7b6cc",
+              "surface": "#131314",
+              "on-surface": "#e5e2e3",
+              "surface-variant": "#353436",
+              "on-surface-variant": "#c2c6d6",
+              "background": "#131314",
+              "outline": "#8c909f",
+              "outline-variant": "#424754",
+              "surface-container-lowest": "#0e0e0f",
+              "surface-container-low": "#1c1b1c",
+              "surface-container": "#201f20",
+              "surface-container-high": "#2a2a2b",
+              "surface-container-highest": "#353436",
+            },
+            fontFamily: {
+              "headline": ["Manrope", "sans-serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      body {
+        background-color: #0a0a0b;
+        color: #e5e2e3;
+        font-family: 'Inter', sans-serif;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-nav {
+        background: rgba(19, 19, 20, 0.6);
+        backdrop-filter: blur(20px);
+      }
+      .text-gradient {
+        background: linear-gradient(135deg, #adc6ff 0%, #4d8eff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .cta-gradient {
+        background: linear-gradient(135deg, #adc6ff 0%, #4d8eff 100%);
+      }
+      /* Custom hide scrollbar */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #0a0a0b; }
+      ::-webkit-scrollbar-thumb { background: #353436; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-background selection:bg-primary/30" data-mode="connect">
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-2xl shadow-black/40">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-['Manrope'] font-extrabold tracking-tighter text-on-surface">
+                Facundo Iriondo
+            </div>
+<div class="flex items-center gap-4">
+<a class="hidden md:flex items-center gap-2 border border-outline-variant hover:bg-surface-container-high text-on-surface px-5 py-2.5 rounded-xl font-bold text-sm transition-all" href="https://wa.me/542243419062" target="_blank">
+<span class="material-symbols-outlined text-sm">chat</span>
+                    Hablemos
+                </a>
+<a href="https://calendar.app.google/hyrMskDQ7EBix4AA8" target="_blank" class="cta-gradient text-on-primary-container px-6 py-2.5 rounded-xl font-bold text-sm transition-transform active:scale-95 shadow-lg shadow-primary/10 inline-block text-center">
+                    Agendar Consultoría
+                </a>
+</div>
+</div>
+</nav>
+<main>
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+<div class="absolute inset-0 z-0">
+<div class="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-1/4 -right-20 w-96 h-96 bg-primary-container/10 rounded-full blur-[120px]"></div>
+</div>
+<div class="container max-w-7xl mx-auto px-8 relative z-10">
+<div class="max-w-4xl">
+<span class="inline-block label-md tracking-[0.2em] text-primary font-semibold mb-6 uppercase">Arquitectura de negocios </span>
+<h1 class="font-headline text-7xl md:text-9xl font-extrabold tracking-tighter text-on-surface leading-none mb-8">
+                        Facundo Iriondo
+                    </h1>
+<p class="font-body text-2xl md:text-3xl text-on-surface-variant max-w-2xl leading-relaxed mb-12">Ayudo a transformar el caos operativo de tu negocio a un modelo sólido y escalable, basado en datos, tecnología e Inteligencia Artificial. Estás listo para liderar en la nueva frontera digital.</p>
+<div class="flex flex-wrap gap-6">
+<a href="https://calendar.app.google/hyrMskDQ7EBix4AA8" target="_blank" class="cta-gradient text-on-primary-container px-10 py-5 rounded-xl font-bold text-lg transition-all hover:shadow-2xl hover:shadow-primary/20 active:scale-95 inline-block text-center">
+                            Agendar Consultoría
+                        </a>
+<a class="border border-outline-variant hover:bg-surface-container-high text-on-surface px-10 py-5 rounded-xl font-bold text-lg transition-all flex items-center gap-3" href="https://wa.me/542243419062" target="_blank">
+<span class="material-symbols-outlined">chat</span>
+                            Hablemos por WhatsApp
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-surface-container-lowest" id="contexto">
+<div class="container max-w-7xl mx-auto px-8">
+<div class="grid md:grid-cols-2 gap-24 items-center">
+<div class="">
+<h2 class="font-headline text-5xl font-extrabold tracking-tighter text-on-surface mb-8">Contexto Actual</h2>
+<div class="space-y-8">
+<p class="text-xl text-on-surface-variant leading-relaxed">El negocio hoy es digital y exige salir a buscar clientes, pero el día a día operativo te consume y no te deja mirar el horizonte. Muchos fallan porque carecen de ese puente cohesivo que conecta la estrategia de alto nivel con la realidad técnica, permitiendo que el negocio crezca mientras el dueño lidera.
+                            </p>
+<div class="p-8 rounded-xl bg-surface-container-high border-l-4 border-primary">
+<p class="text-on-surface font-medium italic text-lg">"Los datos ya no son solo una herramienta para ayudar a las funciones de soporte; se están convirtiendo en el núcleo de la ventaja competitiva y en la esencia misma del producto". M. Porter</p>
+</div>
+</div>
+</div>
+<div class="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+<img class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700" alt="Modern minimalist architectural office space" src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop">
+</div>
+</div>
+</div>
+</section>
+<section class="py-32" id="servicios">
+<div class="container max-w-7xl mx-auto px-8">
+<div class="mb-20">
+<span class="label-md tracking-widest text-primary font-bold uppercase">servicios</span>
+<h2 class="font-headline text-5xl font-extrabold tracking-tighter text-on-surface mt-4">Ejes de Transformación</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="md:col-span-2 p-12 rounded-2xl bg-surface-container-low border border-outline-variant/10 group hover:border-primary/30 transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-8">architecture</span>
+<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Estrategia Digital</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed">La hoja de ruta a largo plazo para transformar tu negocio con datos para la toma de decisiones, centrándose en el impacto en el mercado, propuesta de valor y maximizando rentabilidad.</p>
+</div>
+<div class="p-12 rounded-2xl bg-surface-container-high border border-outline-variant/10 group hover:border-primary/30 transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-8">code</span>
+<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Operaciones Tecnológicas</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed">Optimización de flujos de trabajo y stacks tecnológicos para máxima eficiencia y seguridad.</p>
+</div>
+<div class="p-12 rounded-2xl bg-surface-container-high border border-outline-variant/10 group hover:border-primary/30 transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-8">monitoring</span>
+<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Motor de Crecimiento</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed">Sistemas basados en datos que convierten la estrategia en un crecimiento de ingresos medible.</p>
+</div>
+<div class="md:col-span-2 p-12 rounded-2xl bg-surface-container-low border border-outline-variant/10 group hover:border-primary/30 transition-all">
+<span class="material-symbols-outlined text-primary text-5xl mb-8">auto_awesome</span>
+<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Diseño de Experiencia</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed">Procesos ágiles e interfaces de alta gama que se alinean con la autoridad de su marca y las expectativas del usuario. </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-surface-container-lowest" id="metodologia">
+<div class="container max-w-7xl mx-auto px-8">
+<div class="text-center mb-24">
+<h2 class="font-headline text-6xl font-extrabold tracking-tighter text-on-surface">Metodología</h2>
+<p class="text-on-surface-variant mt-6 text-xl max-w-2xl mx-auto">Un proceso estructurado basado en la precisión y la transparencia.</p>
+</div>
+<div class="relative space-y-24 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-outline-variant before:to-transparent">
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">1</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
+<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 1: Entrevista uno a uno 💭</h4>
+<p class="text-on-surface-variant">Entrevista de 30 min para detectar puntos de dolor y realizar diagnóstico. Te presento el diagnóstico detallado junto con un presupuesto acorde a la complejidad.</p>
+</div>
+</div>
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">2</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
+<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 2: Roadmap 📊</h4>
+<p class="text-on-surface-variant">Plan de acción estratégico detallado con objetivos a corto y largo plazo para tu proyecto.</p>
+</div>
+</div>
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">3</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
+<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 3: MVP 🚀 y Solución</h4>
+<p class="text-on-surface-variant">Implementación de la solución mínima para ver resultados ya. Solución Definitiva: Escalamos y pulimos la estrategia hasta llegar al objetivo final.</p>
+</div>
+</div>
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">4</div>
+<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
+<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 4: Seguimiento 🎯</h4>
+<p class="text-on-surface-variant">Realizamos un seguimiento activo y un análisis de retroalimentación para medir resultados y ajustar lo que sea necesario para asegurar el éxito a largo plazo.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32" id="contacto">
+<div class="container max-w-7xl mx-auto px-8">
+<div class="bg-surface-container-highest rounded-3xl p-12 md:p-24 overflow-hidden relative">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/5 to-transparent"></div>
+<div class="relative z-10 grid md:grid-cols-2 gap-16">
+<div class="">
+<h2 class="font-headline text-5xl md:text-6xl font-extrabold tracking-tighter text-on-surface mb-8">
+                                Construyamos el Futuro.
+                            </h2>
+<p class="text-xl text-on-surface-variant mb-12">
+                                ¿Listo para transformar su presencia digital? Reserve una consulta hoy y comencemos a arquitectar su éxito.
+                            </p>
+</div>
+<div class="flex items-center justify-center">
+<a href="https://calendar.app.google/hyrMskDQ7EBix4AA8" target="_blank" class="w-full md:w-auto cta-gradient text-on-primary-container px-16 py-8 rounded-2xl font-bold text-2xl transition-all hover:scale-105 shadow-2xl shadow-primary/20 inline-block text-center">
+                                Agendar Consultoría
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 overflow-hidden" id="sobre-mi">
+<div class="container max-w-7xl mx-auto px-8">
+<div class="grid lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-5 relative">
+<div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+<img class="object-cover w-full h-full grayscale" alt="Facundo Iriondo Professional Portrait" src="https://media.licdn.com/dms/image/v2/D4D03AQH78AvF4IpLgw/profile-displayphoto-scale_200_200/B4DZkJgTOnIYAY-/0/1756801088806?e=2147483647&v=beta&t=iitl8P62_8tAdvxw-FhnbInQaPxd6krshoctJQInhC0">
+</div>
+<div class="absolute -bottom-8 -right-8 p-8 bg-primary rounded-2xl text-on-primary font-bold">
+<p class="text-4xl">10+</p>
+<p class="text-sm uppercase tracking-widest opacity-80">Años Exp.<br></p>
+</div>
+</div>
+<div class="lg:col-span-7">
+<span class="label-md text-primary font-bold tracking-[0.2em] uppercase">sobre mí</span>
+<h2 class="font-headline text-5xl font-extrabold text-on-surface mt-6 mb-8">Facundo Iriondo</h2>
+<div class="space-y-6 text-xl text-on-surface-variant leading-relaxed">
+<p>Licenciado en Administración me gusta la estratégia, los datos y la tecnología, creo que aportan fluidez y conocimiento real para la toma de decisiones. Me dedico a cerrar la brecha entre la visión corporativa y la implementación técnica, optimizando procesos, definiendo el stack tecnológico óptimo y capacitando al talento humano.</p>
+<p>Como arquitecto de negocio, trabajo con marcas líderes de crecimiento para construir activos digitales que no son solo herramientas, sino ventajas competitivas.</p>
+<div class="pt-8"><a class="inline-flex items-center gap-3 border border-outline-variant hover:bg-surface-container-high text-on-surface px-10 py-5 rounded-xl font-bold text-lg transition-all" href="https://www.linkedin.com/in/facuiriondo/" target="_blank"><span class="material-symbols-outlined">link</span>Mi Perfil Profesional</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface-container-low border-y border-outline-variant/10">
+<div class="container max-w-3xl mx-auto px-8 text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">mail_outline</span>
+<h3 class="font-headline text-4xl font-bold mb-4 text-on-surface">Suscríbete al newsletter</h3>
+<p class="text-on-surface-variant mb-10 text-lg">Análisis sobre arquitectura de estrategia de negocio, últimas tendencias en IA, herramientas tecnológicas y pensamiento crítico, directamente en tu bandeja de entrada.</p>
+<div class="flex justify-center">
+<a href="https://forms.gle/mFHfrnfGsEYakXwb9" target="_blank" class="cta-gradient text-on-primary-container font-bold px-10 py-4 rounded-xl hover:shadow-lg hover:shadow-primary/20 transition-all whitespace-nowrap inline-block text-center">
+                        Suscribirse Ahora
+                    </a>
+</div>
+<p class="text-xs text-on-surface-variant mt-4 opacity-60">No spameamos, solo aportamos valor con conocimiento.</p>
+</div>
+</section>
+</main>
+<footer class="bg-surface-container-lowest py-12 px-8">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto space-y-8 md:space-y-0">
+<div class="text-center md:text-left">
+<div class="font-['Manrope'] font-bold text-on-surface text-lg mb-2">Facundo Iriondo</div>
+<p class="font-['Inter'] text-sm tracking-wide text-on-surface-variant">© 2026 Facundo Iriondo. </p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['Inter'] text-sm tracking-wide uppercase text-on-surface-variant hover:text-primary transition-colors" href="https://linktr.ee/iriondofacundo" target="_blank">LinkedIn</a>
+<a class="font-['Inter'] text-sm tracking-wide uppercase text-on-surface-variant hover:text-primary transition-colors" href="mailto:iriondofacundo@gmail.com">Email</a>
+<a class="font-['Inter'] text-sm tracking-wide uppercase text-on-surface-variant hover:text-primary transition-colors" href="https://wa.me/542243419062" target="_blank">WhatsApp</a>
+</div>
+</div>
+</footer>
+</body></html>

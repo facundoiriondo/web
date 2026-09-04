@@ -1,289 +1,484 @@
-<!DOCTYPE html><html class="dark" lang="es"><head>
-      <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W2RLHJS6');</script>
-<!-- End Google Tag Manager -->
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W2RLHJS6');</script>
+  <!-- End Google Tag Manager -->
 
-<!-- Google Search Console Verification -->
-<meta name="google-site-verification" content="google54a562604803780a.html">
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="google54a562604803780a.html">
 
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Facundo Iriondo </title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Inter:wght@300;400;500;600&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "primary": "#adc6ff",
-              "on-primary": "#002e6a",
-              "primary-container": "#4d8eff",
-              "on-primary-container": "#00285d",
-              "secondary": "#b9c8de",
-              "on-secondary": "#233143",
-              "secondary-container": "#39485a",
-              "on-secondary-container": "#a7b6cc",
-              "surface": "#131314",
-              "on-surface": "#e5e2e3",
-              "surface-variant": "#353436",
-              "on-surface-variant": "#c2c6d6",
-              "background": "#131314",
-              "outline": "#8c909f",
-              "outline-variant": "#424754",
-              "surface-container-lowest": "#0e0e0f",
-              "surface-container-low": "#1c1b1c",
-              "surface-container": "#201f20",
-              "surface-container-high": "#2a2a2b",
-              "surface-container-highest": "#353436",
-            },
-            fontFamily: {
-              "headline": ["Manrope", "sans-serif"],
-              "body": ["Inter", "sans-serif"],
-              "label": ["Inter", "sans-serif"]
-            },
-            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Facundo Iriondo | Arquitectura de Negocios</title>
+  
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  
+  <script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "apple-cream": "#FBFBFD",
+            "apple-gray": "#F5F5F7",
+            "apple-card": "#FFFFFF",
+            "apple-dark": "#1D1D1F",
+            "apple-muted": "#6E6E73",
+            "apple-blue": "#0071E3",
+            "apple-blue-hover": "#0077ED",
+            "apple-softblue": "#E8F2FF",
+            "apple-border": "#E5E5EA",
+            "whatsapp": "#25D366",
+            "whatsapp-hover": "#20ba5a"
           },
+          fontFamily: {
+            "headline": ["'Plus Jakarta Sans'", "sans-serif"],
+            "body": ["'Inter'", "sans-serif"]
+          },
+          borderRadius: {
+            "apple": "18px",
+            "apple-lg": "24px"
+          }
         },
-      }
-    </script>
-<style>
-      body {
-        background-color: #0a0a0b;
-        color: #e5e2e3;
-        font-family: 'Inter', sans-serif;
-      }
-      .material-symbols-outlined {
-        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-      }
-      .glass-nav {
-        background: rgba(19, 19, 20, 0.6);
-        backdrop-filter: blur(20px);
-      }
-      .text-gradient {
-        background: linear-gradient(135deg, #adc6ff 0%, #4d8eff 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      .cta-gradient {
-        background: linear-gradient(135deg, #adc6ff 0%, #4d8eff 100%);
-      }
-      /* Custom hide scrollbar */
-      ::-webkit-scrollbar { width: 6px; }
-      ::-webkit-scrollbar-track { background: #0a0a0b; }
-      ::-webkit-scrollbar-thumb { background: #353436; border-radius: 10px; }
-    </style>
+      },
+    }
+  </script>
+  <style>
+    body {
+      background-color: #FBFBFD;
+      color: #1D1D1F;
+      font-family: 'Inter', sans-serif;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .glass-nav {
+      background: rgba(251, 251, 253, 0.82);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .text-gradient-apple {
+      background: linear-gradient(135deg, #1D1D1F 30%, #0071E3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    /* Scroll Animation Styles */
+    .reveal-item {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal-item.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #F5F5F7; }
+    ::-webkit-scrollbar-thumb { background: #D1D1D6; border-radius: 10px; }
+  </style>
 </head>
-<body class="bg-background selection:bg-primary/30" data-mode="connect">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2RLHJS6"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<nav class="fixed top-0 w-full z-50 glass-nav shadow-2xl shadow-black/40">
-<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
-<div class="text-xl font-['Manrope'] font-extrabold tracking-tighter text-on-surface">
-                Facundo Iriondo
+<body class="bg-apple-cream text-apple-dark antialiased">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2RLHJS6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Barra de Navegación Persistente -->
+  <nav class="fixed top-0 w-full z-50 glass-nav border-b border-apple-border/80 transition-all">
+    <div class="flex justify-between items-center w-full px-6 py-3.5 max-w-7xl mx-auto">
+      
+      <!-- Menú desplegable (3 puntos) -->
+      <div class="relative">
+        <button id="menu-btn" aria-label="Abrir menú" class="flex items-center justify-center w-10 h-10 rounded-full border border-apple-border bg-apple-card text-apple-dark hover:bg-apple-gray transition-all">
+          <span class="material-symbols-outlined text-xl">more_vert</span>
+        </button>
+
+        <div id="dropdown-menu" class="hidden absolute left-0 mt-3 w-64 rounded-apple-lg bg-apple-card border border-apple-border shadow-2xl py-3 z-50">
+          <a href="#inicio" class="menu-link flex items-center gap-3 px-5 py-3 text-sm font-medium text-apple-dark hover:bg-apple-gray transition-colors">
+            <span class="material-symbols-outlined text-apple-blue text-lg">home</span> Inicio
+          </a>
+          <a href="#contexto" class="menu-link flex items-center gap-3 px-5 py-3 text-sm font-medium text-apple-dark hover:bg-apple-gray transition-colors">
+            <span class="material-symbols-outlined text-apple-blue text-lg">insights</span> Contexto
+          </a>
+          <a href="#servicios" class="menu-link flex items-center gap-3 px-5 py-3 text-sm font-medium text-apple-dark hover:bg-apple-gray transition-colors">
+            <span class="material-symbols-outlined text-apple-blue text-lg">hub</span> Servicios
+          </a>
+          <a href="#metodologia" class="menu-link flex items-center gap-3 px-5 py-3 text-sm font-medium text-apple-dark hover:bg-apple-gray transition-colors">
+            <span class="material-symbols-outlined text-apple-blue text-lg">route</span> Metodología
+          </a>
+          <a href="#casos-de-exito" class="menu-link flex items-center gap-3 px-5 py-3 text-sm font-medium text-apple-dark hover:bg-apple-gray transition-colors">
+            <span class="material-symbols-outlined text-apple-blue text-lg">verified</span> Casos de Éxito
+          </a>
+          <a href="#recursos" class="menu-link flex items-center gap-3 px-5 py-3 text-sm font-medium text-apple-dark hover:bg-apple-gray transition-colors">
+            <span class="material-symbols-outlined text-apple-blue text-lg">folder_open</span> Recursos
+          </a>
+          <a href="#sobre-mi" class="menu-link flex items-center gap-3 px-5 py-3 text-sm font-medium text-apple-dark hover:bg-apple-gray transition-colors">
+            <span class="material-symbols-outlined text-apple-blue text-lg">person</span> Sobre Mí
+          </a>
+        </div>
+      </div>
+
+      <!-- Acciones Principales -->
+      <div class="flex items-center gap-3">
+        <a class="flex items-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white px-4 py-2 rounded-full font-semibold text-xs tracking-tight transition-all shadow-sm active:scale-95" href="https://wa.me/542243419062" target="_blank">
+          <span class="material-symbols-outlined text-base">chat</span>
+          <span>Hablemos</span>
+        </a>
+        <a href="https://calendar.app.google/hyrMskDQ7EBix4AA8" target="_blank" class="bg-apple-blue hover:bg-apple-blue-hover text-white px-5 py-2 rounded-full font-semibold text-xs tracking-tight transition-all active:scale-95 shadow-sm inline-block text-center">
+          Agendar Consultoría
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="inicio">
+    <!-- Hero Section -->
+    <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden pt-28 pb-16">
+      <div class="container max-w-5xl mx-auto px-6 relative z-10 text-center">
+        <span class="inline-block text-apple-blue font-headline font-bold text-xs uppercase tracking-[0.2em] mb-4 bg-apple-softblue px-4 py-1.5 rounded-full">
+          Arquitectura de negocios
+        </span>
+        <h1 class="font-headline text-5xl sm:text-7xl md:text-8xl font-extrabold tracking-tight text-apple-dark leading-[1.05] mb-8">
+          Facundo Iriondo
+        </h1>
+        <p class="font-body text-lg sm:text-2xl text-apple-muted max-w-2xl mx-auto leading-relaxed font-normal">
+          Ayudo a transformar el caos operativo de tu negocio usando un modelo sólido y escalable, basado en datos, tecnología e Inteligencia Artificial.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contexto Actual -->
+    <section class="py-24 bg-apple-gray" id="contexto">
+      <div class="container max-w-3xl mx-auto px-6">
+        <h2 class="font-headline text-3xl sm:text-4xl font-bold tracking-tight text-apple-dark mb-6 text-center">Contexto Actual</h2>
+        <div class="space-y-6">
+          <p class="text-base sm:text-lg text-apple-muted leading-relaxed text-center">
+            El crecimiento de los negocios se da en el territorio digital y exige estar donde están tus clientes. Pero el día a día operativo te atrapa. No hay horizonte. Y ahí es donde muchos fallan: sin alguien que conecte estrategia con ejecución, el negocio se estanca. Yo construyo ese puente para escalar tu negocio mientras lideras.
+          </p>
+          <div class="p-6 sm:p-8 rounded-apple bg-apple-card border border-apple-border shadow-sm">
+            <p class="text-apple-dark font-medium italic text-base sm:text-lg text-center leading-relaxed">
+              "Los datos ya no son solo una herramienta para ayudar a las funciones de soporte; se están convirtiendo en el núcleo de la ventaja competitiva y en la esencia misma del producto". <span class="not-italic font-semibold text-apple-blue block mt-2 text-sm">— Michael Porter</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="py-28 bg-apple-cream" id="servicios">
+      <div class="container max-w-6xl mx-auto px-6">
+        <div class="mb-16 text-center">
+          <span class="text-apple-blue font-headline font-bold text-xs uppercase tracking-[0.2em]">Servicios</span>
+          <h2 class="font-headline text-4xl sm:text-5xl font-extrabold tracking-tight text-apple-dark mt-2">Ejes de Transformación</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <div class="md:col-span-2 p-8 sm:p-10 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <span class="material-symbols-outlined text-apple-blue text-4xl mb-6">architecture</span>
+              <h3 class="text-2xl font-headline font-bold mb-3 text-apple-dark">Estrategia Digital</h3>
+              <p class="text-apple-muted text-base leading-relaxed">La hoja de ruta a largo plazo para transformar tu negocio con datos para la toma de decisiones, centrándose en el impacto en el mercado, propuesta de valor y maximizando rentabilidad.</p>
             </div>
-<div class="flex items-center gap-4">
-<a class="hidden md:flex items-center gap-2 border border-outline-variant hover:bg-surface-container-high text-on-surface px-5 py-2.5 rounded-xl font-bold text-sm transition-all" href="https://wa.me/542243419062" target="_blank">
-<span class="material-symbols-outlined text-sm">chat</span>
-                    Hablemos
+          </div>
+
+          <div class="p-8 sm:p-10 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <span class="material-symbols-outlined text-apple-blue text-4xl mb-6">code</span>
+              <h3 class="text-2xl font-headline font-bold mb-3 text-apple-dark">Operaciones Tecnológicas</h3>
+              <p class="text-apple-muted text-base leading-relaxed">Optimización de flujos de trabajo y stacks tecnológicos para máxima eficiencia y seguridad.</p>
+            </div>
+          </div>
+
+          <div class="p-8 sm:p-10 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <span class="material-symbols-outlined text-apple-blue text-4xl mb-6">monitoring</span>
+              <h3 class="text-2xl font-headline font-bold mb-3 text-apple-dark">Motor de Crecimiento</h3>
+              <p class="text-apple-muted text-base leading-relaxed">Sistemas basados en datos que convierten la estrategia en un crecimiento de ingresos medible.</p>
+            </div>
+          </div>
+
+          <div class="md:col-span-2 p-8 sm:p-10 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <span class="material-symbols-outlined text-apple-blue text-4xl mb-6">auto_awesome</span>
+              <h3 class="text-2xl font-headline font-bold mb-3 text-apple-dark">Diseño de Experiencia</h3>
+              <p class="text-apple-muted text-base leading-relaxed">Procesos ágiles e interfaces de alta gama que se alinean con la autoridad de su marca y las expectativas del usuario.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Metodología (Scroll Reveal & Línea Central) -->
+    <section class="py-28 bg-apple-gray" id="metodologia">
+      <div class="container max-w-5xl mx-auto px-6">
+        <div class="text-center mb-20">
+          <span class="text-apple-blue font-headline font-bold text-xs uppercase tracking-[0.2em]">Metodología</span>
+          <h2 class="font-headline text-4xl sm:text-5xl font-extrabold tracking-tight text-apple-dark mt-2">Proceso de Trabajo</h2>
+          <p class="text-apple-muted mt-3 text-lg max-w-xl mx-auto">Estructura clara basada en precisión, diagnóstico y resultados.</p>
+        </div>
+
+        <div class="relative space-y-16 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-apple-border">
+          
+          <!-- Elemento 1 -->
+          <div class="reveal-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-apple-blue bg-apple-card text-apple-blue font-headline font-bold shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-sm">1</div>
+            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-7 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm">
+              <h4 class="text-xl font-headline font-bold text-apple-dark mb-2">Entrevista Uno a Uno</h4>
+              <p class="text-apple-muted text-sm leading-relaxed">Reunión de 30 minutos para identificar puntos de dolor y estructurar un diagnóstico detallado con propuesta precisa.</p>
+            </div>
+          </div>
+
+          <!-- Elemento 2 -->
+          <div class="reveal-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-apple-blue bg-apple-card text-apple-blue font-headline font-bold shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-sm">2</div>
+            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-7 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm">
+              <h4 class="text-xl font-headline font-bold text-apple-dark mb-2">Plan Estratégico</h4>
+              <p class="text-apple-muted text-sm leading-relaxed">Plan de acción estratégico con metas a corto y largo plazo diseñado a la medida de tu organización.</p>
+            </div>
+          </div>
+
+          <!-- Elemento 3 -->
+          <div class="reveal-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-apple-blue bg-apple-card text-apple-blue font-headline font-bold shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-sm">3</div>
+            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-7 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm">
+              <h4 class="text-xl font-headline font-bold text-apple-dark mb-2">Solución</h4>
+              <p class="text-apple-muted text-sm leading-relaxed">Implementación y despliegue: refinamos y consolidamos la estrategia técnica para alcanzar el objetivo final.</p>
+            </div>
+          </div>
+
+          <!-- Elemento 4 -->
+          <div class="reveal-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-apple-blue bg-apple-card text-apple-blue font-headline font-bold shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-sm">4</div>
+            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-7 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm">
+              <h4 class="text-xl font-headline font-bold text-apple-dark mb-2">Seguimiento</h4>
+              <p class="text-apple-muted text-sm leading-relaxed">Monitoreo activo y análisis de métricas para ajustar procesos y asegurar sostenibilidad en el tiempo.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Casos de Éxito -->
+    <section class="py-28 bg-apple-cream" id="casos-de-exito">
+      <div class="container max-w-6xl mx-auto px-6">
+        <div class="mb-16 text-center">
+          <span class="text-apple-blue font-headline font-bold text-xs uppercase tracking-[0.2em]">Resultados comprobados</span>
+          <h2 class="font-headline text-4xl sm:text-5xl font-extrabold tracking-tight text-apple-dark mt-2">Casos de Éxito</h2>
+          <p class="text-apple-muted mt-3 text-lg max-w-xl mx-auto">Proyectos reales en modelo de negocio, analítica y presencia de marca.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <!-- Caso 1: ICCON -->
+          <div class="p-8 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-apple-blue bg-apple-softblue px-3 py-1 rounded-full inline-block mb-4">Modelo de Negocio</span>
+              <h3 class="text-xl font-headline font-bold mb-3 text-apple-dark">ICCON</h3>
+              <p class="text-apple-muted text-sm leading-relaxed mb-6">Desarrollo integral del modelo de negocio y estructuración de la propuesta de valor para potenciar el ecosistema de la organización.</p>
+            </div>
+            <div class="border-t border-apple-border pt-4">
+              <a href="https://iccon.org.ar/" target="_blank" class="text-apple-blue font-semibold text-xs flex items-center gap-1 hover:underline">
+                <span>Visitar Sitio Web</span>
+                <span class="material-symbols-outlined text-sm">arrow_outward</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Caso 2: Cr. Juan Manuel Martinez -->
+          <div class="p-8 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-apple-blue bg-apple-softblue px-3 py-1 rounded-full inline-block mb-4">Branding & Conversión</span>
+              <h3 class="text-xl font-headline font-bold mb-3 text-apple-dark">Cr. Juan Manuel Martinez</h3>
+              <p class="text-apple-muted text-sm leading-relaxed mb-6">Construcción y posicionamiento de marca personal profesional junto con el diseño y desarrollo de una landing page orientada a captación.</p>
+            </div>
+            <div class="border-t border-apple-border pt-4">
+              <a href="https://lnkd.in/p/dZaK-DuS" target="_blank" class="text-apple-blue font-semibold text-xs flex items-center gap-1 hover:underline">
+                <span>Ver Caso en LinkedIn</span>
+                <span class="material-symbols-outlined text-sm">link</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Caso 3: Empresa de Transporte -->
+          <div class="p-8 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-apple-blue bg-apple-softblue px-3 py-1 rounded-full inline-block mb-4">Business Intelligence</span>
+              <h3 class="text-xl font-headline font-bold mb-3 text-apple-dark">Empresa de Transporte</h3>
+              <p class="text-apple-muted text-sm leading-relaxed mb-6">Diseño e implementación de tableros de comando, modelos de datos y KPIs operativos/financieros para la toma de decisiones en tiempo real.</p>
+            </div>
+            <div class="border-t border-apple-border pt-4 flex items-center justify-between text-xs text-apple-muted font-medium">
+              <span>Tableros & Métricas</span>
+              <span class="material-symbols-outlined text-base text-apple-blue">monitoring</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Recursos -->
+    <section class="py-28 bg-apple-gray" id="recursos">
+      <div class="container max-w-6xl mx-auto px-6">
+        <div class="mb-16 text-center">
+          <span class="text-apple-blue font-headline font-bold text-xs uppercase tracking-[0.2em]">Conocimiento Aplicado</span>
+          <h2 class="font-headline text-4xl sm:text-5xl font-extrabold tracking-tight text-apple-dark mt-2">Recursos</h2>
+          <p class="text-apple-muted mt-3 text-lg max-w-xl mx-auto">Herramientas prácticas, guías descargables y próximos lanzamientos.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <div class="p-8 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-apple-softblue text-apple-blue flex items-center justify-center mb-6">
+                <span class="material-symbols-outlined text-xl">download</span>
+              </div>
+              <h3 class="text-xl font-headline font-bold mb-2 text-apple-dark">Framework PyME</h3>
+              <p class="text-apple-muted text-sm leading-relaxed mb-6">Checklist estructurado para auditar la madurez operativa y digital de tu negocio. Completa el formulario para recibirlo en tu email.</p>
+            </div>
+            <a href="https://forms.gle/mFHfrnfGsEYakXwb9" target="_blank" class="text-apple-blue text-xs font-semibold flex items-center gap-1.5 hover:underline">
+              <span>Completar y Descargar</span>
+              <span class="material-symbols-outlined text-sm">arrow_outward</span>
+            </a>
+          </div>
+
+          <div class="p-8 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between opacity-85">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-apple-gray text-apple-muted flex items-center justify-center mb-6">
+                <span class="material-symbols-outlined text-xl">podcasts</span>
+              </div>
+              <div class="flex items-center gap-2 mb-2">
+                <h3 class="text-xl font-headline font-bold text-apple-dark">Podcast</h3>
+                <span class="text-[10px] bg-apple-gray text-apple-muted px-2 py-0.5 rounded-full font-bold uppercase">Próximamente</span>
+              </div>
+              <p class="text-apple-muted text-sm leading-relaxed mb-6">Charlas directas sobre gestión empresarial, tecnología y toma de decisiones.</p>
+            </div>
+            <span class="text-xs text-apple-muted font-medium">En producción</span>
+          </div>
+
+          <div class="p-8 rounded-apple-lg bg-apple-card border border-apple-border shadow-sm flex flex-col justify-between opacity-85">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-apple-gray text-apple-muted flex items-center justify-center mb-6">
+                <span class="material-symbols-outlined text-xl">school</span>
+              </div>
+              <div class="flex items-center gap-2 mb-2">
+                <h3 class="text-xl font-headline font-bold text-apple-dark">Workshops</h3>
+                <span class="text-[10px] bg-apple-gray text-apple-muted px-2 py-0.5 rounded-full font-bold uppercase">Próximamente</span>
+              </div>
+              <p class="text-apple-muted text-sm leading-relaxed mb-6">Capacitación práctica en datos e IA aplicada a procesos y modelos de negocio.</p>
+            </div>
+            <span class="text-xs text-apple-muted font-medium">En producción</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section class="py-28 bg-apple-cream" id="sobre-mi">
+      <div class="container max-w-5xl mx-auto px-6">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-5 relative">
+            <div class="aspect-[4/5] rounded-apple-lg overflow-hidden shadow-xl border border-apple-border">
+              <img class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500" alt="Facundo Iriondo" src="https://github.com/facundoiriondo/web/blob/main/PassPh-Facu.png?raw=true">
+            </div>
+            <div class="absolute -bottom-4 -right-4 px-6 py-4 bg-apple-card border border-apple-border shadow-lg rounded-apple text-apple-dark">
+              <p class="text-2xl font-headline font-extrabold text-apple-blue">10+</p>
+              <p class="text-[10px] uppercase tracking-wider font-semibold text-apple-muted">Años Exp.</p>
+            </div>
+          </div>
+          <div class="lg:col-span-7">
+            <span class="text-apple-blue font-headline font-bold text-xs uppercase tracking-[0.2em]">Sobre Mí</span>
+            <h2 class="font-headline text-4xl sm:text-5xl font-extrabold text-apple-dark mt-2 mb-6">Facundo Iriondo</h2>
+            <div class="space-y-4 text-base sm:text-lg text-apple-muted leading-relaxed">
+              <p>Licenciado en Administración: me apasionan la estrategia, los datos y la tecnología; creo que aportan fluidez y conocimiento real para la toma de decisiones. Me dedico a cerrar la brecha entre la visión corporativa y la implementación técnica, optimizando procesos, definiendo el stack tecnológico óptimo y capacitando al talento humano.</p>
+              <p>Como arquitecto de negocio, trabajo junto a líderes para construir activos digitales que no son solo herramientas, sino ventajas competitivas sostenibles.</p>
+              <div class="pt-4">
+                <a class="inline-flex items-center gap-2 border border-apple-border bg-apple-card hover:bg-apple-gray text-apple-dark px-6 py-3 rounded-full font-semibold text-xs tracking-tight transition-all" href="https://www.linkedin.com/in/facuiriondo/" target="_blank">
+                  <span class="material-symbols-outlined text-sm">link</span>
+                  <span>Conectar en LinkedIn</span>
                 </a>
-<a href="https://calendar.app.google/hyrMskDQ7EBix4AA8" target="_blank" class="cta-gradient text-on-primary-container px-6 py-2.5 rounded-xl font-bold text-sm transition-transform active:scale-95 shadow-lg shadow-primary/10 inline-block text-center">
-                    Agendar Consultoría
-                </a>
-</div>
-</div>
-</nav>
-<main>
-<section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-<div class="absolute inset-0 z-0">
-<div class="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
-<div class="absolute bottom-1/4 -right-20 w-96 h-96 bg-primary-container/10 rounded-full blur-[120px]"></div>
-</div>
-<div class="container max-w-7xl mx-auto px-8 relative z-10">
-<div class="max-w-4xl">
-<span class="inline-block label-md tracking-[0.2em] text-primary font-semibold mb-6 uppercase">Arquitectura de negocios </span>
-<h1 class="font-headline text-7xl md:text-9xl font-extrabold tracking-tighter text-on-surface leading-none mb-8">
-                        Facundo Iriondo
-                    </h1>
-<p class="font-body text-2xl md:text-3xl text-on-surface-variant max-w-2xl leading-relaxed mb-12">Ayudo a transformar el caos operativo de tu negocio a un modelo sólido y escalable, basado en datos, tecnología e Inteligencia Artificial. Estás listo para liderar en la nueva frontera digital.</p>
-<div class="flex flex-wrap gap-6">
-<a href="https://calendar.app.google/hyrMskDQ7EBix4AA8" target="_blank" class="cta-gradient text-on-primary-container px-10 py-5 rounded-xl font-bold text-lg transition-all hover:shadow-2xl hover:shadow-primary/20 active:scale-95 inline-block text-center">
-                            Agendar Consultoría
-                        </a>
-<a class="border border-outline-variant hover:bg-surface-container-high text-on-surface px-10 py-5 rounded-xl font-bold text-lg transition-all flex items-center gap-3" href="https://wa.me/542243419062" target="_blank">
-<span class="material-symbols-outlined">chat</span>
-                            Hablemos por WhatsApp
-                        </a>
-</div>
-</div>
-</div>
-</section>
-<section class="py-32 bg-surface-container-lowest" id="contexto">
-<div class="container max-w-7xl mx-auto px-8">
-<div class="grid md:grid-cols-2 gap-24 items-center">
-<div class="">
-<h2 class="font-headline text-5xl font-extrabold tracking-tighter text-on-surface mb-8">Contexto Actual</h2>
-<div class="space-y-8">
-<p class="text-xl text-on-surface-variant leading-relaxed">El negocio hoy es digital y exige salir a buscar clientes, pero el día a día operativo te consume y no te deja mirar el horizonte. Muchos fallan porque carecen de ese puente cohesivo que conecta la estrategia de alto nivel con la realidad técnica, permitiendo que el negocio crezca mientras el dueño lidera.
-                            </p>
-<div class="p-8 rounded-xl bg-surface-container-high border-l-4 border-primary">
-<p class="text-on-surface font-medium italic text-lg">"Los datos ya no son solo una herramienta para ayudar a las funciones de soporte; se están convirtiendo en el núcleo de la ventaja competitiva y en la esencia misma del producto". M. Porter</p>
-</div>
-</div>
-</div>
-<div class="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
-<img class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700" alt="Modern minimalist architectural office space" src="https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjExfHxlbXByZXNhc3xlbnwwfHwwfHx8MA%3D%3D" />
-</div>
-</div>
-</div>
-</section>
-<section class="py-32" id="servicios">
-<div class="container max-w-7xl mx-auto px-8">
-<div class="mb-20">
-<span class="label-md tracking-widest text-primary font-bold uppercase">servicios</span>
-<h2 class="font-headline text-5xl font-extrabold tracking-tighter text-on-surface mt-4">Ejes de Transformación</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="md:col-span-2 p-12 rounded-2xl bg-surface-container-low border border-outline-variant/10 group hover:border-primary/30 transition-all">
-<span class="material-symbols-outlined text-primary text-5xl mb-8">architecture</span>
-<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Estrategia Digital</h3>
-<p class="text-on-surface-variant text-lg leading-relaxed">La hoja de ruta a largo plazo para transformar tu negocio con datos para la toma de decisiones, centrándose en el impacto en el mercado, propuesta de valor y maximizando rentabilidad.</p>
-</div>
-<div class="p-12 rounded-2xl bg-surface-container-high border border-outline-variant/10 group hover:border-primary/30 transition-all">
-<span class="material-symbols-outlined text-primary text-5xl mb-8">code</span>
-<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Operaciones Tecnológicas</h3>
-<p class="text-on-surface-variant text-lg leading-relaxed">Optimización de flujos de trabajo y stacks tecnológicos para máxima eficiencia y seguridad.</p>
-</div>
-<div class="p-12 rounded-2xl bg-surface-container-high border border-outline-variant/10 group hover:border-primary/30 transition-all">
-<span class="material-symbols-outlined text-primary text-5xl mb-8">monitoring</span>
-<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Motor de Crecimiento</h3>
-<p class="text-on-surface-variant text-lg leading-relaxed">Sistemas basados en datos que convierten la estrategia en un crecimiento de ingresos medible.</p>
-</div>
-<div class="md:col-span-2 p-12 rounded-2xl bg-surface-container-low border border-outline-variant/10 group hover:border-primary/30 transition-all">
-<span class="material-symbols-outlined text-primary text-5xl mb-8">auto_awesome</span>
-<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Diseño de Experiencia</h3>
-<p class="text-on-surface-variant text-lg leading-relaxed">Procesos ágiles e interfaces de alta gama que se alinean con la autoridad de su marca y las expectativas del usuario. </p>
-</div>
-</div>
-</div>
-</section>
-<section class="py-32 bg-surface-container-lowest" id="metodologia">
-<div class="container max-w-7xl mx-auto px-8">
-<div class="text-center mb-24">
-<h2 class="font-headline text-6xl font-extrabold tracking-tighter text-on-surface">Metodología</h2>
-<p class="text-on-surface-variant mt-6 text-xl max-w-2xl mx-auto">Un proceso estructurado basado en la precisión y la transparencia.</p>
-</div>
-<div class="relative space-y-24 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-outline-variant before:to-transparent">
-<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">1</div>
-<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
-<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 1: Entrevista uno a uno 💭</h4>
-<p class="text-on-surface-variant">Entrevista de 30 min para detectar puntos de dolor y realizar diagnóstico. Te presento el diagnóstico detallado junto con un presupuesto acorde a la complejidad.</p>
-</div>
-</div>
-<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">2</div>
-<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
-<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 2: Roadmap 📊</h4>
-<p class="text-on-surface-variant">Plan de acción estratégico detallado con objetivos a corto y largo plazo para tu proyecto.</p>
-</div>
-</div>
-<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">3</div>
-<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
-<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 3: MVP 🚀 y Solución</h4>
-<p class="text-on-surface-variant">Implementación de la solución mínima para ver resultados ya. Solución Definitiva: Escalamos y pulimos la estrategia hasta llegar al objetivo final.</p>
-</div>
-</div>
-<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-<div class="flex items-center justify-center w-10 h-10 rounded-full border border-primary bg-background text-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_20px_rgba(173,198,255,0.3)]">4</div>
-<div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-8 rounded-2xl bg-surface border border-outline-variant/10">
-<h4 class="text-2xl font-bold text-on-surface mb-2">Paso 4: Seguimiento 🎯</h4>
-<p class="text-on-surface-variant">Realizamos un seguimiento activo y un análisis de retroalimentación para medir resultados y ajustar lo que sea necesario para asegurar el éxito a largo plazo.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-32" id="contacto">
-<div class="container max-w-7xl mx-auto px-8">
-<div class="bg-surface-container-highest rounded-3xl p-12 md:p-24 overflow-hidden relative">
-<div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/5 to-transparent"></div>
-<div class="relative z-10 grid md:grid-cols-2 gap-16">
-<div class="">
-<h2 class="font-headline text-5xl md:text-6xl font-extrabold tracking-tighter text-on-surface mb-8">
-                                Construyamos el Futuro de tu negocio.
-                            </h2>
-<p class="text-xl text-on-surface-variant mb-12">
-                                Agenda una reunión uno a uno para conocernos y comenzar la transformación.
-                            </p>
-</div>
-<div class="flex items-center justify-center">
-<a href="https://calendar.app.google/hyrMskDQ7EBix4AA8" target="_blank" class="w-full md:w-auto cta-gradient text-on-primary-container px-16 py-8 rounded-2xl font-bold text-2xl transition-all hover:scale-105 shadow-2xl shadow-primary/20 inline-block text-center">
-                                Agendar Consultoría
-                            </a>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-32 overflow-hidden" id="sobre-mi">
-<div class="container max-w-7xl mx-auto px-8">
-<div class="grid lg:grid-cols-12 gap-16 items-center">
-<div class="lg:col-span-5 relative">
-<div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-<img class="object-cover w-full h-full grayscale" alt="Facundo Iriondo Professional Portrait" src="https://github.com/facundoiriondo/web/blob/main/PassPh-Facu.png?raw=true">
-</div>
-<div class="absolute -bottom-8 -right-8 p-8 bg-primary rounded-2xl text-on-primary font-bold">
-<p class="text-4xl">10+</p>
-<p class="text-sm uppercase tracking-widest opacity-80">Años Exp.<br></p>
-</div>
-</div>
-<div class="lg:col-span-7">
-<span class="label-md text-primary font-bold tracking-[0.2em] uppercase">sobre mí</span>
-<h2 class="font-headline text-5xl font-extrabold text-on-surface mt-6 mb-8">Facundo Iriondo</h2>
-<div class="space-y-6 text-xl text-on-surface-variant leading-relaxed">
-<p>Licenciado en Administración me gusta la estrategia, los datos y la tecnología, creo que aportan fluidez y conocimiento real para la toma de decisiones. Me dedico a cerrar la brecha entre la visión corporativa y la implementación técnica, optimizando procesos, definiendo el stack tecnológico óptimo y capacitando al talento humano.</p>
-<p>Como arquitecto de negocio, trabajo con marcas líderes de crecimiento para construir activos digitales que no son solo herramientas, sino ventajas competitivas.</p>
-<div class="pt-8"><a class="inline-flex items-center gap-3 border border-outline-variant hover:bg-surface-container-high text-on-surface px-10 py-5 rounded-xl font-bold text-lg transition-all" href="https://www.linkedin.com/in/facuiriondo/" target="_blank"><span class="material-symbols-outlined">link</span>Conectá en LinkedIn</a></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-24 bg-surface-container-low border-y border-outline-variant/10">
-<div class="container max-w-3xl mx-auto px-8 text-center">
-<span class="material-symbols-outlined text-primary text-4xl mb-6">mail_outline</span>
-<h3 class="font-headline text-4xl font-bold mb-4 text-on-surface">Suscríbete al newsletter</h3>
-<p class="text-on-surface-variant mb-10 text-lg">Análisis sobre arquitectura de estrategia de negocio, últimas tendencias en IA, herramientas tecnológicas y pensamiento crítico, directamente en tu bandeja de entrada.</p>
-<div class="flex justify-center">
-<a href="https://forms.gle/mFHfrnfGsEYakXwb9" target="_blank" class="cta-gradient text-on-primary-container font-bold px-10 py-4 rounded-xl hover:shadow-lg hover:shadow-primary/20 transition-all whitespace-nowrap inline-block text-center">
-                        Suscribirse Ahora
-                    </a>
-</div>
-<p class="text-xs text-on-surface-variant mt-4 opacity-60">No spameamos, solo aportamos valor con conocimiento.</p>
-</div>
-</section>
-</main>
-<footer class="bg-surface-container-lowest py-12 px-8">
-<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto space-y-8 md:space-y-0">
-<div class="text-center md:text-left">
-<div class="font-['Manrope'] font-bold text-on-surface text-lg mb-2">Facundo Iriondo</div>
-<p class="font-['Inter'] text-sm tracking-wide text-on-surface-variant">© 2026 Facundo Iriondo. </p>
-</div>
-<div class="flex flex-wrap justify-center gap-8">
-<a class="font-['Inter'] text-sm tracking-wide uppercase text-on-surface-variant hover:text-primary transition-colors" href="https://www.linkedin.com/in/facuiriondo/" target="_blank">LinkedIn</a>
-<a class="font-['Inter'] text-sm tracking-wide uppercase text-on-surface-variant hover:text-primary transition-colors" href="mailto:iriondofacundo@gmail.com">Email</a>
-<a class="font-['Inter'] text-sm tracking-wide uppercase text-on-surface-variant hover:text-primary transition-colors" href="https://wa.me/542243419062" target="_blank">WhatsApp</a>
-</div>
-</div>
-</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-24 bg-apple-gray border-t border-apple-border">
+      <div class="container max-w-2xl mx-auto px-6 text-center">
+        <span class="material-symbols-outlined text-apple-blue text-4xl mb-4">mail_outline</span>
+        <h3 class="font-headline text-3xl sm:text-4xl font-bold text-apple-dark mb-3">Suscríbete al newsletter</h3>
+        <p class="text-apple-muted mb-8 text-base leading-relaxed">Análisis sobre arquitectura de estrategia de negocio, últimas tendencias en IA, herramientas tecnológicas y pensamiento crítico, directamente en tu bandeja de entrada.</p>
+        <div class="flex justify-center">
+          <a href="https://forms.gle/mFHfrnfGsEYakXwb9" target="_blank" class="bg-apple-blue hover:bg-apple-blue-hover text-white font-semibold text-xs px-8 py-3.5 rounded-full shadow-sm active:scale-95 transition-all inline-block">
+            Suscribirse
+          </a>
+        </div>
+        <p class="text-xs text-apple-muted mt-3">Sin spam. Solo valor y conocimiento aplicable.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-apple-card py-10 px-6 border-t border-apple-border">
+    <div class="flex flex-col md:flex-row justify-between items-center max-w-6xl mx-auto space-y-6 md:space-y-0">
+      <div class="text-center md:text-left">
+        <div class="font-headline font-bold text-apple-dark text-base">Facundo Iriondo</div>
+        <p class="text-xs text-apple-muted mt-0.5">© 2026 Facundo Iriondo.</p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-6">
+        <a class="text-xs font-medium text-apple-muted hover:text-apple-blue transition-colors" href="https://www.linkedin.com/in/facuiriondo/" target="_blank">LinkedIn</a>
+        <a class="text-xs font-medium text-apple-muted hover:text-apple-blue transition-colors" href="mailto:iriondofacundo@gmail.com">Email</a>
+        <a class="text-xs font-medium text-apple-muted hover:text-whatsapp transition-colors" href="https://wa.me/542243419062" target="_blank">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts: Menú desplegable & Scroll Reveal -->
+  <script>
+    // Menú desplegable
+    const menuBtn = document.getElementById('menu-btn');
+    const dropdownMenu = document.getElementById('dropdown-menu');
+    const menuLinks = document.querySelectorAll('.menu-link');
+
+    menuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dropdownMenu.classList.toggle('hidden');
+    });
+
+    menuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        dropdownMenu.classList.add('hidden');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!dropdownMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+        dropdownMenu.classList.add('hidden');
+      }
+    });
+
+    // Scroll Reveal para Metodología
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+        }
+      });
+    }, {
+      threshold: 0.2
+    });
+
+    document.querySelectorAll('.reveal-item').forEach(item => {
+      observer.observe(item);
+    });
+  </script>
 </body>
 </html>
